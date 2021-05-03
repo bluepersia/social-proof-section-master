@@ -138,4 +138,63 @@
     .social {
     font-size: 0.9375rem;
     }
+
+
+   
+
+
+    .social__header {
+        display: flex;
+        text-align: left;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+    .social__title {
+        font-size: 3em;
+        max-width: 373px;
+    }
+    .social__title, .social__description {
+        margin-left: 0;
+        grid-column: 1 / 2;
+    }
+
+    .social__description {
+        max-width: 450px;
+    }
+
+
+
+    .social__rating {
+        display: flex;
+        justify-content: start;
+        gap: 2em;
+        grid-column: 2 / -1;
+        padding: 1em 3em;
+        padding-right: 5em;
+    }
+
+    .social__rating:nth-child(1)
+    {
+        position: relative;
+        right: 6.66em;
+    }
+    .social__rating:nth-child(2)
+    {
+        position: relative;
+        right: 3.33em;
+    }
+
+    
+
+    .social__stars {
+        margin-bottom: 0;
+    }
+
+    .social__rating-label {
+        font-size: 1.1em;
+        text-align: right;
+    }
 }
