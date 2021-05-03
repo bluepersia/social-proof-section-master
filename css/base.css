@@ -4,3 +4,9 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+.body__social {
+    width: 87.2%;
+    margin-left: auto;
+    margin-right: auto;
+}

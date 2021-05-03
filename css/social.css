@@ -22,6 +22,63 @@
 .social 
 {
     font-family: var(--f-1);
-    font-size: 0.9375rem;
+    padding: 5.4em 0;
+    max-width: 1110px;
+    font-size: 0.8rem;
+}
 
+.social p {
+    line-height: 1.6;
+}
+
+
+.social__header {
+    text-align: center;
+}
+
+
+.social__title {
+    color:var(--c-1);
+    margin: 0 auto;
+    max-width: 250px;
+}
+
+.social__description {
+    color:var(--n-1);
+    max-width: 307px;
+    margin: 2em auto;
+}
+
+
+.social__rating {
+    background: var(--n-2);
+    color: var(--c-1);
+    font-weight: 700;
+    font-size: 0.85em;
+    padding:1em;
+    margin-bottom: 1.2em;
+}
+
+.social__rating:last-child {
+    margin-bottom: 0;
+}
+
+
+.social__stars {
+    margin-bottom: 0.5em;
+}
+
+
+.social__star {
+    width: 1.25em;
+    margin: 0 0.2em;
+}
+
+
+
+@media (min-width:768px)
+{
+    .social {
+    font-size: 0.9375rem;
+    }
 }
