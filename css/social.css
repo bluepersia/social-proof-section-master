@@ -82,6 +82,7 @@
 .social__testimonials {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1.5em;
 }
 
@@ -97,6 +98,9 @@
     column-gap: 2em;
 
     padding: 3em;
+
+    max-width: 30em;
+
 }
 
 
@@ -143,12 +147,7 @@
    
 
 
-    .social__header {
-        display: flex;
-        text-align: left;
-        justify-content: space-between;
-        align-items: center;
-    }
+  
 
 
 
@@ -156,15 +155,36 @@
         font-size: 3em;
         max-width: 373px;
     }
-    .social__title, .social__description {
-        margin-left: 0;
-        grid-column: 1 / 2;
-    }
+  
 
     .social__description {
         max-width: 450px;
     }
 
+
+
+
+
+    .social__testimonials {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 23.33em);
+        justify-content: space-between;
+    }
+}
+
+
+@media (min-width: 1065px)
+{
+    .social__header {
+        display: flex;
+        text-align: left;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .social__title, .social__description {
+        margin-left: 0;
+        grid-column: 1 / 2;
+    }
 
 
     .social__rating {
