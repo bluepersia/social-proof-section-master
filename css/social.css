@@ -1,0 +1,27 @@
+:root {
+    --c-1: hsl(300, 43%, 22%);
+    --c-2: hsl(333, 80%, 67%);
+
+    --n-1: hsl(303, 10%, 53%);
+    --n-2: hsl(300, 24%, 96%);
+    --n-3: hsl(0, 0%, 100%);
+
+    --f-1: 'Spartan', sans-serif;
+}
+
+
+
+.social, .social *, .social *::after, .social *::before
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.social 
+{
+    font-family: var(--f-1);
+    font-size: 0.9375rem;
+
+}
