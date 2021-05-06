@@ -218,3 +218,17 @@
         text-align: right;
     }
 }
+
+@media (min-width: 1271px)
+{
+    .social__testimonial:nth-child(2)
+    {
+        position: relative;
+        top: 1.5em;
+    }
+    .social__testimonial:nth-child(3)
+    {
+        position: relative;
+        top: 3em;
+    }
+}
